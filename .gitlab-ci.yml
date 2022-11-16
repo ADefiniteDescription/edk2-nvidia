@@ -1,0 +1,8 @@
+jobs:
+  tags:
+    - ekd2
+
+build-job:
+  stage: build
+  script:
+    - echo "This is a job test"
